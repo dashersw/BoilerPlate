@@ -13,5 +13,5 @@
 // limitations under the License.
 
 /**
- * @fileoverview Externs declarations for Namespace.
+ * @fileoverview Externs declarations for BoilerPlate.
  */

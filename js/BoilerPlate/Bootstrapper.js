@@ -13,10 +13,10 @@
 // limitations under the License.
 
 /**
- * @fileoverview Bootstrapper for Namespace.
+ * @fileoverview Bootstrapper for BoilerPlate.
  */
 
-goog.provide('namespace.Bootstrapper');
+goog.provide('BoilerPlate.Bootstrapper');
 
 
 
@@ -24,5 +24,5 @@ goog.provide('namespace.Bootstrapper');
  * Bootstrapper class includes things to do on startup.
  * @constructor
  */
-namespace.Bootstrapper = function() {
+BoilerPlate.Bootstrapper = function() {
 };

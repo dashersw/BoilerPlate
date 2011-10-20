@@ -4,7 +4,7 @@
 
 js/library/tartJS/tools/goog/build/closurebuilder.py \
 --root=js/ \
---namespace="namespace.Bootstrapper" \
+--namespace="BoilerPlate.Bootstrapper" \
 --output_mode=compiled \
 --output_file=js/compiled/compiled.js \
 --compiler_jar=js/library/tartJS/tools/goog/compiler/compiler.jar \
@@ -18,7 +18,7 @@ js/library/tartJS/tools/goog/build/closurebuilder.py \
 --compiler_flags="--externs=js/library/tartJS/tart/externs/jquery-1.4.4.externs.js" \
 --compiler_flags="--externs=js/library/tartJS/tart/externs/tart.externs.js" \
 --compiler_flags="--externs=js/library/tartJS/tart/externs/jasmine.externs.js" \
---compiler_flags="--externs=js/pk/externs/namespace.externs.js" \
+--compiler_flags="--externs=js/pk/externs/BoilerPlate.externs.js" \
 --compiler_flags="--jscomp_error=accessControls" \
 --compiler_flags="--jscomp_error=checkRegExp" \
 --compiler_flags="--jscomp_error=checkTypes" \
